@@ -12,7 +12,7 @@ function Card({ title, imageUrl, description, buttonText, link }: CardProps) {
   return (
     <div className="card w-15 shadow-xl">
       <a href={link}>
-        <div className="card-body bg-gray-800">
+        <div className="card-body bg-gray-800 ">
           <h2 className="card-title">{title}</h2>
           <p>{description}</p>
           <div className="card-actions">
