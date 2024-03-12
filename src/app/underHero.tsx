@@ -5,7 +5,7 @@ function UnderHero() {
   // Array of objects with card content
   const cards = [
     {
-      title: "Audiobooks!",
+      title: "Audiobooks",
       imageUrl: "https://example.com/audiobooks.jpg",
       description:
         "Listen to captivating stories on-the-go with our vast collection of audiobooks!",
@@ -13,7 +13,7 @@ function UnderHero() {
       link: "#",
     },
     {
-      title: "Books!",
+      title: "Books",
       imageUrl: "https://example.com/books.jpg",
       description:
         "Expand your knowledge and imagination with our diverse range of books!",
@@ -21,7 +21,7 @@ function UnderHero() {
       link: "#",
     },
     {
-      title: "Documentaries!",
+      title: "Documentaries",
       imageUrl: "https://example.com/documentaries.jpg",
       description:
         "Explore the wonders of the world and learn from real-life stories with our documentaries!",
@@ -29,7 +29,7 @@ function UnderHero() {
       link: "#",
     },
     {
-      title: "Videos!",
+      title: "Videos",
       imageUrl: "https://example.com/videos.jpg",
       description:
         "Discover entertaining and informative videos covering a variety of topics!",
