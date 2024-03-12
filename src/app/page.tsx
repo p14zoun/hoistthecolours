@@ -16,7 +16,7 @@ export default function Home() {
           backgroundAttachment: "fixed", // Make the background image fixed
         }}
       > */}
-      <main>
+      <main className="bg-black text-gray-100">
         <Hero />
         <UnderHero />
       </main>
