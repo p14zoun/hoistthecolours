@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <main
+      {/* <main
         style={{
           backgroundImage: "url('/pirate.png')",
           backgroundSize: "contain",
@@ -15,7 +15,8 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed", // Make the background image fixed
         }}
-      >
+      > */}
+      <main>
         <Hero />
         <UnderHero />
       </main>
