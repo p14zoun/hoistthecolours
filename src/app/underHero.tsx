@@ -10,6 +10,7 @@ function UnderHero() {
       description:
         "Listen to captivating stories on-the-go with our vast collection of audiobooks!",
       buttonText: "Go",
+      link: "#",
     },
     {
       title: "Books!",
@@ -17,6 +18,7 @@ function UnderHero() {
       description:
         "Expand your knowledge and imagination with our diverse range of books!",
       buttonText: "Go",
+      link: "#",
     },
     {
       title: "Documentaries!",
@@ -24,6 +26,7 @@ function UnderHero() {
       description:
         "Explore the wonders of the world and learn from real-life stories with our documentaries!",
       buttonText: "Go",
+      link: "#",
     },
     {
       title: "Videos!",
@@ -31,6 +34,7 @@ function UnderHero() {
       description:
         "Discover entertaining and informative videos covering a variety of topics!",
       buttonText: "Go",
+      link: "#",
     },
   ];
 
@@ -45,6 +49,7 @@ function UnderHero() {
               imageUrl={card.imageUrl}
               description={card.description}
               buttonText={card.buttonText}
+              link={card.link}
             />
           ))}
         </div>
